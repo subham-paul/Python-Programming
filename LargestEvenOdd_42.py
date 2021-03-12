@@ -1,0 +1,10 @@
+list=[int(input("Enter the number of term = "))]
+print("Max no in the list = ", max(list))
+print("Min no in the list = ", min(list))
+x = max(list)
+y = min(list)
+list.remove(x)
+list.remove(y)
+print()
+print("2nd max no in the list = ", max(list))
+print("2nd min no in the list = ", min(list))

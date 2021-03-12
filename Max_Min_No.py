@@ -1,0 +1,5 @@
+a = int (input("Enter the value of A = "))
+b = int (input("Enter the value of B = "))
+c = int (input("Enter the value of C = "))
+print("maximum is",a) if(a>b and a>c) else print("maximum is",b) if(b>a and b>c) else print("maximum is",c)
+print("minimum is",a) if(a<b and a<c) else print("minimum is",b) if(b<a and b<c) else print("minimum is",c)
